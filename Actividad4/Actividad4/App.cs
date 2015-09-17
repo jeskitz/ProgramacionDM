@@ -26,15 +26,13 @@ namespace Actividad4
 
 			return contentPage;
 		}
-
 		*/
-
-		//El mismo código usando inicializador de objetos
+			//El mismo código usando inicializador de objetos
 			return new ContentPage {
-				label = new Label {
+				Content = new Label {
 					Text = "Cámbiame",
 					TextColor = Color.Blue,
-					VerticalOptions = TextAlignment.Center,
+					VerticalOptions = LayoutOptions.Center,
 				},
 
 			};
