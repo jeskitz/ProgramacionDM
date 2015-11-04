@@ -31,10 +31,11 @@ namespace Actividad11
 		{
 			var lista = new List<Frutas> ();
 
-			lista.Add (new Frutas{Nombre = "Platano", Imagen = "http://www.importancia.org/wp-content/uploads/platano.jpg"});
-			lista.Add (new Frutas{Nombre = "Pina", Imagen = "http://2.bp.blogspot.com/-Bw0n6k40hD0/T-yH2CGcHyI/AAAAAAAAAI8/kZEiZ_sbq2w/s1600/Pi%C3%B1a_con_hojaStevia.jpg"});
-
-
+			lista.Add (new Frutas{Nombre = "Platano", Imagen = "http://www.clipartbest.com/cliparts/9ip/eMB/9ipeMBg7T.png"});
+			lista.Add (new Frutas{Nombre = "Pina", Imagen = "http://malaganaturalbio.com/WebRoot/Store8/Shops/a6cb0002-e2ba-4648-acde-ba2439c30312/5495/4B96/0C17/AC4A/EC2B/0A48/3521/E81A/PINA.png"});
+			lista.Add (new Frutas{ Nombre = "Fresa", Imagen = "http://lh5.ggpht.com/-PT8Z9jyP2MA/Ubj-6nYxIcI/AAAAAAAAEhU/DqQAScJqjWo/s9000/01.png" });
+			lista.Add (new Frutas{Nombre = "Sandia", Imagen = "http://3vimir3l0i0322tm4k1i9ks4.wpengine.netdna-cdn.com/wp-content/uploads/2012/06/Leopard.png"});
+			lista.Add (new Frutas{Nombre = "Kiwi", Imagen = "http://icons.iconseeker.com/png/fullsize/new-zealand-icons/kiwi-fruit.png"});
 			return lista;
 		}
 	}
