@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
 using Xamarin.Forms;
 
 
@@ -19,8 +17,14 @@ namespace Actividad12.Droid
 
 			var ctx = Forms.Context;
 
+			var options = new ZXing.Mobile.MobileBarcodeScanningOptions();
+			options.PossibleFormats = new System.Collections.Generic.List<ZXing.BarcodeFormat>()
+			{
+				ZXing.BarcodeFormat.QR_CODE,
+			};
+
 			var scanner = new ZXing.Mobile.MobileBarcodeScanner(ctx);
-			var result = await scanner.Scan();
+			var result = await scanner.Scan(options);
 
 			if(result != null)
 				return result.ToString ();
