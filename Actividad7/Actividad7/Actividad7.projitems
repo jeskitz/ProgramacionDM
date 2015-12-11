@@ -10,8 +10,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Pagina1.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Pagina2.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Pagina3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Menu.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Empleados.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MisDatos.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Noticias.cs" />
   </ItemGroup>
 </Project>
